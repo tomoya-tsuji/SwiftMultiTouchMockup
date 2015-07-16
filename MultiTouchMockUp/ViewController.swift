@@ -11,20 +11,21 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var logView: UITextView!
-    @IBOutlet weak var imageView: UIImageView!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let rect = CGRect(x: 0,y: 0,width: 1000, height: 1000 )
-        let view = UIView(frame: rect)
+        let imageview = UIImageView(frame: rect)
+        self.view.userInteractionEnabled = true
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         
     }
-    // MARK - TouchIvent_override
+    // MARK - TouchEvent_override
     override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
         println("タップされました")
         

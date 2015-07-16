@@ -22,9 +22,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wiF-Hg-3mS">
-                                <rect key="frame" x="136" y="0.0" width="326" height="600"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -33,7 +30,6 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="wiF-Hg-3mS" id="D3m-ml-Q2J"/>
                         <outlet property="logView" destination="nAg-pW-II2" id="EXh-Xh-aiJ"/>
                     </connections>
                 </viewController>

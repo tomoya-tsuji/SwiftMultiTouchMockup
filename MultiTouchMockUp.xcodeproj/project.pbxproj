@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD229DA11B552D660050CAF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD229DA01B552D660050CAF5 /* AppDelegate.swift */; };
+		CD229DA31B552D660050CAF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD229DA21B552D660050CAF5 /* ViewController.swift */; };
+		CD229DA61B552D660050CAF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD229DA41B552D660050CAF5 /* Main.storyboard */; };
+		CD229DA81B552D660050CAF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD229DA71B552D660050CAF5 /* Images.xcassets */; };
+		CD229DAB1B552D660050CAF5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD229DA91B552D660050CAF5 /* LaunchScreen.xib */; };
+		CD229DB71B552D660050CAF5 /* MultiTouchMockUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD229DB61B552D660050CAF5 /* MultiTouchMockUpTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD229DB11B552D660050CAF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD229D931B552D660050CAF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD229D9A1B552D660050CAF5;
+			remoteInfo = MultiTouchMockUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD229D9B1B552D660050CAF5 /* MultiTouchMockUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiTouchMockUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD229D9F1B552D660050CAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD229DA01B552D660050CAF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD229DA21B552D660050CAF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD229DA51B552D660050CAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD229DA71B552D660050CAF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD229DAA1B552D660050CAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CD229DB01B552D660050CAF5 /* MultiTouchMockUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiTouchMockUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD229DB51B552D660050CAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD229DB61B552D660050CAF5 /* MultiTouchMockUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTouchMockUpTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD229D981B552D660050CAF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD229DAD1B552D660050CAF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD229D921B552D660050CAF5 = {
+			isa = PBXGroup;
+			children = (
+				CD229D9D1B552D660050CAF5 /* MultiTouchMockUp */,
+				CD229DB31B552D660050CAF5 /* MultiTouchMockUpTests */,
+				CD229D9C1B552D660050CAF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD229D9C1B552D660050CAF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD229D9B1B552D660050CAF5 /* MultiTouchMockUp.app */,
+				CD229DB01B552D660050CAF5 /* MultiTouchMockUpTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD229D9D1B552D660050CAF5 /* MultiTouchMockUp */ = {
+			isa = PBXGroup;
+			children = (
+				CD229DA01B552D660050CAF5 /* AppDelegate.swift */,
+				CD229DA21B552D660050CAF5 /* ViewController.swift */,
+				CD229DA41B552D660050CAF5 /* Main.storyboard */,
+				CD229DA71B552D660050CAF5 /* Images.xcassets */,
+				CD229DA91B552D660050CAF5 /* LaunchScreen.xib */,
+				CD229D9E1B552D660050CAF5 /* Supporting Files */,
+			);
+			path = MultiTouchMockUp;
+			sourceTree = "<group>";
+		};
+		CD229D9E1B552D660050CAF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD229D9F1B552D660050CAF5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD229DB31B552D660050CAF5 /* MultiTouchMockUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD229DB61B552D660050CAF5 /* MultiTouchMockUpTests.swift */,
+				CD229DB41B552D660050CAF5 /* Supporting Files */,
+			);
+			path = MultiTouchMockUpTests;
+			sourceTree = "<group>";
+		};
+		CD229DB41B552D660050CAF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD229DB51B552D660050CAF5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD229D9A1B552D660050CAF5 /* MultiTouchMockUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD229DBA1B552D660050CAF5 /* Build configuration list for PBXNativeTarget "MultiTouchMockUp" */;
+			buildPhases = (
+				CD229D971B552D660050CAF5 /* Sources */,
+				CD229D981B552D660050CAF5 /* Frameworks */,
+				CD229D991B552D660050CAF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiTouchMockUp;
+			productName = MultiTouchMockUp;
+			productReference = CD229D9B1B552D660050CAF5 /* MultiTouchMockUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD229DAF1B552D660050CAF5 /* MultiTouchMockUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD229DBD1B552D660050CAF5 /* Build configuration list for PBXNativeTarget "MultiTouchMockUpTests" */;
+			buildPhases = (
+				CD229DAC1B552D660050CAF5 /* Sources */,
+				CD229DAD1B552D660050CAF5 /* Frameworks */,
+				CD229DAE1B552D660050CAF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD229DB21B552D660050CAF5 /* PBXTargetDependency */,
+			);
+			name = MultiTouchMockUpTests;
+			productName = MultiTouchMockUpTests;
+			productReference = CD229DB01B552D660050CAF5 /* MultiTouchMockUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD229D931B552D660050CAF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = astrotom;
+				TargetAttributes = {
+					CD229D9A1B552D660050CAF5 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CD229DAF1B552D660050CAF5 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CD229D9A1B552D660050CAF5;
+					};
+				};
+			};
+			buildConfigurationList = CD229D961B552D660050CAF5 /* Build configuration list for PBXProject "MultiTouchMockUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD229D921B552D660050CAF5;
+			productRefGroup = CD229D9C1B552D660050CAF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD229D9A1B552D660050CAF5 /* MultiTouchMockUp */,
+				CD229DAF1B552D660050CAF5 /* MultiTouchMockUpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD229D991B552D660050CAF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD229DA61B552D660050CAF5 /* Main.storyboard in Resources */,
+				CD229DAB1B552D660050CAF5 /* LaunchScreen.xib in Resources */,
+				CD229DA81B552D660050CAF5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD229DAE1B552D660050CAF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD229D971B552D660050CAF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD229DA31B552D660050CAF5 /* ViewController.swift in Sources */,
+				CD229DA11B552D660050CAF5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD229DAC1B552D660050CAF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD229DB71B552D660050CAF5 /* MultiTouchMockUpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD229DB21B552D660050CAF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD229D9A1B552D660050CAF5 /* MultiTouchMockUp */;
+			targetProxy = CD229DB11B552D660050CAF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD229DA41B552D660050CAF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD229DA51B552D660050CAF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD229DA91B552D660050CAF5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD229DAA1B552D660050CAF5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD229DB81B552D660050CAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD229DB91B552D660050CAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD229DBB1B552D660050CAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiTouchMockUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CD229DBC1B552D660050CAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiTouchMockUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CD229DBE1B552D660050CAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MultiTouchMockUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiTouchMockUp.app/MultiTouchMockUp";
+			};
+			name = Debug;
+		};
+		CD229DBF1B552D660050CAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MultiTouchMockUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiTouchMockUp.app/MultiTouchMockUp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD229D961B552D660050CAF5 /* Build configuration list for PBXProject "MultiTouchMockUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD229DB81B552D660050CAF5 /* Debug */,
+				CD229DB91B552D660050CAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD229DBA1B552D660050CAF5 /* Build configuration list for PBXNativeTarget "MultiTouchMockUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD229DBB1B552D660050CAF5 /* Debug */,
+				CD229DBC1B552D660050CAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD229DBD1B552D660050CAF5 /* Build configuration list for PBXNativeTarget "MultiTouchMockUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD229DBE1B552D660050CAF5 /* Debug */,
+				CD229DBF1B552D660050CAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD229D931B552D660050CAF5 /* Project object */;
+}

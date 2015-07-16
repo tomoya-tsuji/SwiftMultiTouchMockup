@@ -10,18 +10,35 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var logView: UITextView!
+    @IBOutlet weak var imageView: UIImageView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.multipleTouchEnabled = YES;
         
+        let rect = CGRect(x: 0,y: 0,width: 1000, height: 1000 )
+        let view = UIView(frame: rect)
     }
 
-    @IBOutlet weak var logView: UITextView!
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         
     }
+    // MARK - TouchIvent_override
+    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+        println("タップされました")
+        
+        let touch = touches.first as? UITouch
+        var position = CGPointZero
+        if let _touch = touch{
+           position = _touch.locationInView(self.view)
+        }
+        println("タッチ座標は = \(position)")
+        self.logView.text = "タッチ座標は = \(position)"
+    }
+    
+    
+    
 
 
 }

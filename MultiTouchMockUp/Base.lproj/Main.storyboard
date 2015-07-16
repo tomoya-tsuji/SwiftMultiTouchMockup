@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -22,14 +23,24 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="k7N-Fi-QfM">
+                                <rect key="frame" x="16" y="0.0" width="568" height="600"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="k7N-Fi-QfM" secondAttribute="bottom" id="57o-8l-cBS"/>
                             <constraint firstAttribute="centerX" secondItem="nAg-pW-II2" secondAttribute="centerX" id="Ld0-Qz-1w9"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="nAg-pW-II2" secondAttribute="bottom" id="XKE-yO-0Bf"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="k7N-Fi-QfM" secondAttribute="bottom" id="Ypa-3s-TuE"/>
+                            <constraint firstAttribute="centerX" secondItem="k7N-Fi-QfM" secondAttribute="centerX" id="bjG-el-fbO"/>
+                            <constraint firstItem="k7N-Fi-QfM" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="c7U-8E-Urf"/>
+                            <constraint firstItem="k7N-Fi-QfM" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="cs1-Wf-v9y"/>
+                            <constraint firstItem="k7N-Fi-QfM" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" id="qsS-gI-pDD"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="imageView" destination="k7N-Fi-QfM" id="akn-H7-diK"/>
                         <outlet property="logView" destination="nAg-pW-II2" id="EXh-Xh-aiJ"/>
                     </connections>
                 </viewController>

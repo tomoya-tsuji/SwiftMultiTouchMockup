@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var logView: UITextView!
+    @IBOutlet weak var imageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,8 +37,33 @@ class ViewController: UIViewController {
         }
         println("タッチ座標は = \(position)")
         self.logView.text = "タッチ座標は = \(position)"
+        
+        UIGraphicsBeginImageContext(self.imageView.frame.size)
+        self.imageView.image?.drawInRect(self.imageView.frame)
+        var ct: CGContextRef = UIGraphicsGetCurrentContext()
+        var rad: CGFloat = 15.0;
+        var rect01:CGRect = CGRectMake(
+            position.x - rad,
+            position.y - rad,
+            rad * 2.0,
+            rad * 2.0)
+        CGContextSetRGBFillColor(ct, 1.0, 0.0, 0.0, 0.2)
+        CGContextFillEllipseInRect(ct, rect01)
+        
+        self.imageView.image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
     }
     
+    // MARK - Setting FirstResponder
+    override func canBecomeFirstResponder() -> Bool {
+        return true;
+    }
+    
+    // MARK - Method motionEnded
+    override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent) {
+        println("motion ended")
+        self.imageView.image = nil
+    }
     
     
 

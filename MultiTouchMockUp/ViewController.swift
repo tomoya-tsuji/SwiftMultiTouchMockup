@@ -16,9 +16,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let rect = CGRect(x: 0,y: 0,width: 1000, height: 1000 )
-        let imageview = UIImageView(frame: rect)
-        self.view.userInteractionEnabled = true
+//        let rect = CGRect(x: 0,y: 0,width: 1000, height: 1000 )
+//        let imageview = UIImageView(frame: rect)
+        self.imageView.userInteractionEnabled = true
+        self.imageView.multipleTouchEnabled = true
         
     }
 
